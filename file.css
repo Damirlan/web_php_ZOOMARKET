@@ -1,0 +1,57 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+html,
+h1 {
+    color: #d81919;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #c42222;
+}
+body {
+    background: #3CB371;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*
+        HEADER
+*/
+header {
+    background: #3CB371;
+    height: 70px;
+}
+header *{
+    color: #050505;
+}
+header h1{
+    margin-top: 12px;
+}
+header h1 a {
+    color:#050505
+}
+header h1 a:hover {
+    text-decoration: none;
+    color:#050505
+}
+header ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #050505;
+    padding: 22px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="file.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cf41273882.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="container">
+          <div class="row">
+              <div class="col-4">
+                  <h1><a href="/sample/index.html">ZooMarket</a></h1>
+              </div>
+              <nav class="col-8">
+                <ul>
+                    <li>
+                        <a href="userpage.php"><i class="fa fa-user fa-1x"></i>Кабинет покупателя</a>
+                      </li>
+                      <li>
+                        <a href="startsearch.html">Искать товар</a>
+                      </li>
+                      <li>
+                        <a href="showData.php">Список товаров</a>
+                      </li>
+                </ul>
+            </nav>
+          </div>
+      </div>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <div class="container">
+      <form class="row justify-content-md-center" name="input" method="post" action="searchData.php">
+        <div class="mb-3 col-12 col-md-4">
+            <h1>Выберете параметры товара</h1>
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+            <p>Вид животного: <select class="dropdown" name="typeAn">
+            <option value="cat">Кошка</option>
+            <option value="turtle">Черепаха</option>
+            <option value="dog">Собака</option>
+            <option value="frog">Лягушка</option>
+            <option value="lizard">Ящерица</option>
+            <option value="axolotl">Аксолотль</option>
+            </select></p>
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+            <p>Порода животного: <select class="dropdown" name="breedAn">
+            <option value="Red">Red</option>
+            <option value="CentralAsian">CentralAsian</option>
+            <option value="American">American</option>
+            <option value="African">African</option>
+            <option value="French">French</option>
+            <option value="Portuguese">Portuguese</option>
+            <option value="Scottish">Scottish</option>
+            <option value="English">English</option>
+            </select></p>
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+            <p>Бренд: <select class="dropdown" name="brend">
+            <option value="royalcanin">royalcanin</option>
+            <option value="acana">acana</option>
+            <option value="proplan">proplan</option>
+            <option value="purina">purina</option>
+            <option value="catchow">catchow</option>
+            </select></p>
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+            <p>Тип товара: <select class="dropdown" name="typePro">
+            <option value="food">Еда</option>
+            <option value="clothes">Одежда</option>
+            <option value="medicines">Медицина</option>
+            <option value="accessories">Аксессуары</option>
+            </select></p>
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+            <button type="submit">Искать</button>
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
